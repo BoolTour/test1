@@ -1,0 +1,17 @@
+/*导航条样式*/
+*{margin: 0;padding: 0;}
+body{background: #abc;}
+h2{text-align: center;color: #80FFFF;}
+.nav{margin-top: 20px;margin: 0 auto;}
+ul{list-style: none;height: 50px;padding-left:400px;border-bottom: 5px solid #f60;}
+li{float: left;margin-top: 20px;}
+a{text-decoration: none;display: block;
+	color: #abc;
+	height: 30px;
+	line-height: 30px;
+	width: 120px;
+	background-color: #ccc;
+	margin-bottom: 1px;
+	text-align: center;
+	background: url(../images/btnBg.png);}/*看好背景图的大小，来设置a标签的宽度*/
+.on,a:hover{color: #fff;background-position: 0 -30px;}

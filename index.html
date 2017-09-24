@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>超链接按钮</title>
+<style>
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background: url(images/10103.jpg);
+}
+/*导航条*/
+#top{
+  width: 950px;
+  height: 135px;
+  margin: auto;
+  overflow: hidden;
+}
+#top_menu{
+  width: 950px;
+  height: 35px;
+  margin-top: 30px;
+  margin-left: 150px;
+}
+a{
+  width: 131px;
+  height: 26px;
+  float: left;
+  text-align: center;
+  color: #FFF;
+  font-size: 15px;
+  border: #FFF solid 1px;
+}
+a:link,a:visited{
+   padding:10px 0px 0px 0px;
+   background-color:#97CBFF;
+   text-decoration:none;
+}
+a:hover {
+   padding:10px 0px 0px 0px;
+   background-color:#75b040;
+   text-decoration:none;
+}
+/*登陆注册*/
+#login{
+  float: right;
+  font-size: 8px;
+  color: red;
+}
+/*留言板*/
+#box{
+  width:555px;
+  height:258px;
+  background-image:url(images/5101.gif);
+  background-repeat:no-repeat;
+  padding-top:120px;
+  padding-left:50px;
+  padding-right:50px;
+  margin:auto;
+}
+textarea{
+   font-size:20px;
+   line-height:30px;
+   color: rgb(38,112,183);
+   border: 0px;
+   width: 440px;
+   height: 220px;
+}
+</style>
+</head>
+<body>
+<div id="top">
+  <div id="top_menu">
+    <a href="index.html">个人主页</a>
+    <a href="myCourse.html">我的课程</a>
+    <a href="myLiterature.html">我的文学</a>
+    <a href="beyondWorld.html">世界之外</a>
+    <a href="tenYears.html">十年一品</a>
+  </div>
+</div>
+<div id="box">
+  <textarea>Write down your feelings......</textarea>
+</div>
+<div id="bgMusic">
+  <audio autoplay="autoplay" controls="controls" loop="loop" preload="auto"src="music/2.mp3">
+  </audio>
+</div>
+</body>
+</html>
+
